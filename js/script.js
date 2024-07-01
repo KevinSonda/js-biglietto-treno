@@ -17,5 +17,11 @@ if (eta < 18) {
     //calcolo il prezzo finale
     prezzo_finale = prezzo_base - sconto;
 }
+else if (eta > 65 ) {
+    //Calcolo dal prezzo base lo sconto
+    let sconto = prezzo_base * 0.4;
+    //calcolo il prezzo finale
+    prezzo_finale = prezzo_base - sconto;
+}
 
 console.log(prezzo_finale)
